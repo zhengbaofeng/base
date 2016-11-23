@@ -1,4 +1,4 @@
-function formatDate(t) {//¸ñÊ½»¯Ê±¼ä´Á
+function formatDate(t) {//æ—¥æœŸæ ¼å¼åŒ–
     var time = new Date(t);
     var year = time.getFullYear();
     var month = time.getMonth() + 1;
