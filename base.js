@@ -17,7 +17,7 @@ function formatDate(t) {//日期格式化
     }
     return year + "-" + month + "-" + date;
 }
-function GetRequest() {
+function GetRequest() {//获取链接参数
     var url = location.search;
     var theRequest = new Object();
     if (url.indexOf("?") != -1) {
